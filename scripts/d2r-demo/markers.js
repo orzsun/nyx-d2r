@@ -8,6 +8,9 @@ const COLOR_PLAYER   = 0xFF00FF00; // green
 const COLOR_ME       = 0xFF00FFFF; // yellow  (local player)
 const COLOR_MONSTER  = 0xFF0000FF; // red
 const COLOR_MISSILE  = 0xFFFFFFFF; // white
+const COLOR_ELITE   = 0xFF00A5FF; // 橙色 (精英)
+const COLOR_BOSS    = 0xFF0000FF; // 纯红 (Boss)
+const RADIUS_BOSS   = 6;          // Boss 标记稍大
 
 const RADIUS_PLAYER  = 4;
 const RADIUS_MONSTER = 3;
@@ -74,3 +77,4 @@ class Markers {
 }
 
 export { Markers };
+
